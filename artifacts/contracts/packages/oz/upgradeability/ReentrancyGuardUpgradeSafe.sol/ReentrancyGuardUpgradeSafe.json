@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ReentrancyGuardUpgradeSafe",
+  "sourceName": "contracts/packages/oz/upgradeability/ReentrancyGuardUpgradeSafe.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212204d4b3ec665c950455e211756f96f7dee6bff43f201c81cb6f4a77100c787a4d064736f6c634300060a0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212204d4b3ec665c950455e211756f96f7dee6bff43f201c81cb6f4a77100c787a4d064736f6c634300060a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

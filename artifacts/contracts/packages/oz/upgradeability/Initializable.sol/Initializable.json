@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Initializable",
+  "sourceName": "contracts/packages/oz/upgradeability/Initializable.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220f9d156c3a10d415341c1042c634aef60711df1ae19c5c302cabcc70fb0664a0a64736f6c634300060a0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220f9d156c3a10d415341c1042c634aef60711df1ae19c5c302cabcc70fb0664a0a64736f6c634300060a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,1584 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\interfaces\\AddressBookInterface.sol": {
+      "lastModificationDate": 1613821133779,
+      "contentHash": "9068d214cd8daab7f94cde5565b28bb2",
+      "sourceName": "contracts/interfaces/AddressBookInterface.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "AddressBookInterface"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\MyOperator.sol": {
+      "lastModificationDate": 1613822619579,
+      "contentHash": "61153c83b204d6b638e212101cc2b46c",
+      "sourceName": "contracts/MyOperator.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/ControllerInterface.sol",
+        "./interfaces/AddressBookInterface.sol",
+        "./libs/Actions.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "MyOperator"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\interfaces\\ControllerInterface.sol": {
+      "lastModificationDate": 1613822131328,
+      "contentHash": "38539dc11b63c8227d9d0f2b55118c4d",
+      "sourceName": "contracts/interfaces/ControllerInterface.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libs/Actions.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "ControllerInterface"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\libs\\Actions.sol": {
+      "lastModificationDate": 1613821369197,
+      "contentHash": "17e6f4d427cd5216c160d5e39160e85d",
+      "sourceName": "contracts/libs/Actions.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MarginVault.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "Actions"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\libs\\MarginVault.sol": {
+      "lastModificationDate": 1613821133828,
+      "contentHash": "67380439b8173a2b0bbc8cefe58fc2c7",
+      "sourceName": "contracts/libs/MarginVault.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../packages/oz/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.10"
+      ],
+      "artifacts": [
+        "MarginVault"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\SafeMath.sol": {
+      "lastModificationDate": 1613821133867,
+      "contentHash": "f893f6d1057e6c990e2004edd8b1e71e",
+      "sourceName": "contracts/packages/oz/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\interfaces\\MarginCalculatorInterface.sol": {
+      "lastModificationDate": 1613822944265,
+      "contentHash": "39b3f5ff10774b6b876a229a84ebc7af",
+      "sourceName": "contracts/interfaces/MarginCalculatorInterface.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libs/MarginVault.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "MarginCalculatorInterface"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\SafeERC20.sol": {
+      "lastModificationDate": 1613821133860,
+      "contentHash": "fa8d2fece4186d7405a6f3fcb9cffae8",
+      "sourceName": "contracts/packages/oz/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/ERC20Interface.sol",
+        "./SafeMath.sol",
+        "./Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\interfaces\\ERC20Interface.sol": {
+      "lastModificationDate": 1613822944178,
+      "contentHash": "2cf300bc0cadfa7b7bc61245c50019fd",
+      "sourceName": "contracts/interfaces/ERC20Interface.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "ERC20Interface"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\Address.sol": {
+      "lastModificationDate": 1613821133843,
+      "contentHash": "dd86a579cb365095936f479aad4adb56",
+      "sourceName": "contracts/packages/oz/Address.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.2"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\libs\\FixedPointInt256.sol": {
+      "lastModificationDate": 1613821133819,
+      "contentHash": "d6d2b317bd14c6160cb570232214472e",
+      "sourceName": "contracts/libs/FixedPointInt256.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../packages/oz/SignedSafeMath.sol",
+        "../libs/SignedConverter.sol",
+        "../packages/oz/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "FixedPointInt256"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\SignedSafeMath.sol": {
+      "lastModificationDate": 1613821133867,
+      "contentHash": "1ec4cc07113214cccd2d635f375f437c",
+      "sourceName": "contracts/packages/oz/SignedSafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "SignedSafeMath"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\libs\\SignedConverter.sol": {
+      "lastModificationDate": 1613821133829,
+      "contentHash": "4dc57a8516c07c92819048c08baba915",
+      "sourceName": "contracts/libs/SignedConverter.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "SignedConverter"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\interfaces\\AggregatorInterface.sol": {
+      "lastModificationDate": 1613822943916,
+      "contentHash": "1264c37693ca5a84d90013c0ea8bb4d4",
+      "sourceName": "contracts/interfaces/AggregatorInterface.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "AggregatorInterface"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\interfaces\\CalleeInterface.sol": {
+      "lastModificationDate": 1613822944006,
+      "contentHash": "09d09db1d68dbd2a4f855b55c4fab750",
+      "sourceName": "contracts/interfaces/CalleeInterface.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "CalleeInterface"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\interfaces\\CTokenInterface.sol": {
+      "lastModificationDate": 1613822944092,
+      "contentHash": "cf401c3fff8bd596b8e36ad6046d5288",
+      "sourceName": "contracts/interfaces/CTokenInterface.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "CTokenInterface"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\interfaces\\MarginPoolInterface.sol": {
+      "lastModificationDate": 1613822944352,
+      "contentHash": "98ac6f37cb60f1a3742e830e70347b18",
+      "sourceName": "contracts/interfaces/MarginPoolInterface.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "MarginPoolInterface"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\interfaces\\OpynPricerInterface.sol": {
+      "lastModificationDate": 1613822944440,
+      "contentHash": "c1753d19f12d50a426853c1ad564c27b",
+      "sourceName": "contracts/interfaces/OpynPricerInterface.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "OpynPricerInterface"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\interfaces\\OracleInterface.sol": {
+      "lastModificationDate": 1613822944530,
+      "contentHash": "3028ff4573dd64302d280c1ceead44fd",
+      "sourceName": "contracts/interfaces/OracleInterface.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "OracleInterface"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\interfaces\\OtokenInterface.sol": {
+      "lastModificationDate": 1613822944621,
+      "contentHash": "da657857d9663142065c2dfe75c84314",
+      "sourceName": "contracts/interfaces/OtokenInterface.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "OtokenInterface"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\interfaces\\WhitelistInterface.sol": {
+      "lastModificationDate": 1613822943705,
+      "contentHash": "261b23d98aafbb90bd2c872a2a5efbc1",
+      "sourceName": "contracts/interfaces/WhitelistInterface.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "WhitelistInterface"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\interfaces\\ZeroXExchangeInterface.sol": {
+      "lastModificationDate": 1613822943827,
+      "contentHash": "f600025034525bf59b0970b9b3519435",
+      "sourceName": "contracts/interfaces/ZeroXExchangeInterface.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "ZeroXExchangeInterface"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\BokkyPooBahsDateTimeLibrary.sol": {
+      "lastModificationDate": 1613821133835,
+      "contentHash": "483a524a15d46742a5f268e0dd138a18",
+      "sourceName": "contracts/packages/BokkyPooBahsDateTimeLibrary.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "BokkyPooBahsDateTimeLibrary"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\Context.sol": {
+      "lastModificationDate": 1613821133843,
+      "contentHash": "e901026a4163b0df955839ed638f6ee4",
+      "sourceName": "contracts/packages/oz/Context.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\Ownable.sol": {
+      "lastModificationDate": 1613821133852,
+      "contentHash": "79940bcd1e230500f8149159a00d5374",
+      "sourceName": "contracts/packages/oz/Ownable.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\Create2.sol": {
+      "lastModificationDate": 1613821133844,
+      "contentHash": "c4235ef10a0ce4aaabfa1607240f8e5d",
+      "sourceName": "contracts/packages/oz/Create2.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.10"
+      ],
+      "artifacts": [
+        "Create2"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\IERC20.sol": {
+      "lastModificationDate": 1613821133847,
+      "contentHash": "54cde4fb04b3b4116fccfc8fd7ad905d",
+      "sourceName": "contracts/packages/oz/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\ReentrancyGuard.sol": {
+      "lastModificationDate": 1613821133858,
+      "contentHash": "f10b24bf13530876b5a1f0f97daf0325",
+      "sourceName": "contracts/packages/oz/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.10"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\Strings.sol": {
+      "lastModificationDate": 1613821133869,
+      "contentHash": "1f412ef84319da85cbafd23a0a12b0c6",
+      "sourceName": "contracts/packages/oz/Strings.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.10"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\cryptography\\ECDSAUpgradeable.sol": {
+      "lastModificationDate": 1613821133873,
+      "contentHash": "e130a7a0c828da318cf44f721a84c5dc",
+      "sourceName": "contracts/packages/oz/upgradeability/cryptography/ECDSAUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ECDSAUpgradeable"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\erc20-permit\\ERC20PermitUpgradeable.sol": {
+      "lastModificationDate": 1613821133888,
+      "contentHash": "da6b06e1577ce5f7967ff68ba13f68b9",
+      "sourceName": "contracts/packages/oz/upgradeability/erc20-permit/ERC20PermitUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../ERC20Upgradeable.sol",
+        "./IERC20PermitUpgradeable.sol",
+        "../cryptography/ECDSAUpgradeable.sol",
+        "../utils/CountersUpgradeable.sol",
+        "./EIP712Upgradeable.sol",
+        "../Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.5 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20PermitUpgradeable"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\ERC20Upgradeable.sol": {
+      "lastModificationDate": 1613821133894,
+      "contentHash": "5d82f8710903f181b35ef448e31dfafa",
+      "sourceName": "contracts/packages/oz/upgradeability/ERC20Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./GSN/ContextUpgradeable.sol",
+        "./IERC20Upgradeable.sol",
+        "./math/SafeMathUpgradeable.sol",
+        "./Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Upgradeable"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\erc20-permit\\IERC20PermitUpgradeable.sol": {
+      "lastModificationDate": 1613821133886,
+      "contentHash": "67c4b24763b9683e20fa697c5e4edcfe",
+      "sourceName": "contracts/packages/oz/upgradeability/erc20-permit/IERC20PermitUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20PermitUpgradeable"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\utils\\CountersUpgradeable.sol": {
+      "lastModificationDate": 1613821133931,
+      "contentHash": "d58df4b4542ef82983a0bc3c434f48a2",
+      "sourceName": "contracts/packages/oz/upgradeability/utils/CountersUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../math/SafeMathUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "CountersUpgradeable"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\erc20-permit\\EIP712Upgradeable.sol": {
+      "lastModificationDate": 1613821133882,
+      "contentHash": "4f739b757892e2b84d90d8b9f58ebd6c",
+      "sourceName": "contracts/packages/oz/upgradeability/erc20-permit/EIP712Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EIP712Upgradeable"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\Initializable.sol": {
+      "lastModificationDate": 1613821133906,
+      "contentHash": "aeab3bf46917f7872522b1ea8d3b0ae6",
+      "sourceName": "contracts/packages/oz/upgradeability/Initializable.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24 <0.7.0"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\GSN\\ContextUpgradeable.sol": {
+      "lastModificationDate": 1613821133895,
+      "contentHash": "98e331fa0bedad38d523bc36a28de3c6",
+      "sourceName": "contracts/packages/oz/upgradeability/GSN/ContextUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ContextUpgradeable"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\IERC20Upgradeable.sol": {
+      "lastModificationDate": 1613821133900,
+      "contentHash": "9c24adb9fd17a7a213973586115b844b",
+      "sourceName": "contracts/packages/oz/upgradeability/IERC20Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Upgradeable"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\math\\SafeMathUpgradeable.sol": {
+      "lastModificationDate": 1613821133911,
+      "contentHash": "0a7e5d6c671ec4be10408fc22dae6e36",
+      "sourceName": "contracts/packages/oz/upgradeability/math/SafeMathUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMathUpgradeable"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\ReentrancyGuardUpgradeSafe.sol": {
+      "lastModificationDate": 1613821133927,
+      "contentHash": "f40afe65390062b843ae6b3bd0bc4a8a",
+      "sourceName": "contracts/packages/oz/upgradeability/ReentrancyGuardUpgradeSafe.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuardUpgradeSafe"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\OwnableUpgradeSafe.sol": {
+      "lastModificationDate": 1613821133914,
+      "contentHash": "aa9eef94e37c1ac9a52a8e3f6ff0cafd",
+      "sourceName": "contracts/packages/oz/upgradeability/OwnableUpgradeSafe.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./GSN/ContextUpgradeable.sol",
+        "./Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "OwnableUpgradeSafe"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\OwnedUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1613821133916,
+      "contentHash": "f34708911df8e821e902f4de809d5578",
+      "sourceName": "contracts/packages/oz/upgradeability/OwnedUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "OwnedUpgradeabilityProxy"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\UpgradeabilityProxy.sol": {
+      "lastModificationDate": 1613821133931,
+      "contentHash": "993d84b9f9ea74ba2214c2b2b8b713ea",
+      "sourceName": "contracts/packages/oz/upgradeability/UpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Proxy.sol"
+      ],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "UpgradeabilityProxy"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\oz\\upgradeability\\Proxy.sol": {
+      "lastModificationDate": 1613821133918,
+      "contentHash": "44c2639249fdaf5fa935538184ea92a4",
+      "sourceName": "contracts/packages/oz/upgradeability/Proxy.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.10"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "C:\\Users\\Root\\Documents\\my_ethereum\\opyn-operator-demo\\contracts\\packages\\Spawn.sol": {
+      "lastModificationDate": 1613821133931,
+      "contentHash": "5cac9dc14d9cf3f932ef4ed7999ea0b0",
+      "sourceName": "contracts/packages/Spawn.sol",
+      "solcConfig": {
+        "version": "0.6.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.10"
+      ],
+      "artifacts": [
+        "Spawn"
+      ]
+    }
+  }
+}
